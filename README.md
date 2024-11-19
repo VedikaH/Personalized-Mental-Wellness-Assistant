@@ -1,13 +1,14 @@
 
 
-# Mental Health Therapy Chatbot
+# Personalized-Mental-Wellness-Assistant
 
-This repository contains the source code for the **Mental Health Therapy Chatbot**, a conversational AI designed to provide empathetic and supportive responses to users seeking mental health guidance. The chatbot leverages the **LLaMA-2** model fine-tuned for mental health conversations and is integrated with a frontend using **Streamlit** for user interaction. 
+
+This repository contains the source code for the **Personalized-Mental-Wellness-Assistant**, a conversational AI designed to provide empathetic and supportive responses to users seeking mental health guidance. The chatbot leverages the **LLaMA-2** model fine-tuned for mental health conversations and is integrated with a frontend using **Streamlit** for user interaction. 
 
 
 ## Overview
 
-The **Mental Health Therapy Chatbot** is an AI-powered tool that provides users with thoughtful, compassionate, and non-judgmental responses. It is designed to simulate therapy-like conversations and offer suggestions and coping mechanisms for users struggling with feelings like loneliness, stress, or anxiety.
+The **Personalized-Mental-Wellness-Assistant** is an AI-powered tool that provides users with thoughtful, compassionate, and non-judgmental responses. It is designed to simulate therapy-like conversations and offer suggestions and coping mechanisms for users struggling with feelings like loneliness, stress, or anxiety.
 
 This chatbot:
 - Understands user input and provides relevant advice and coping strategies.
@@ -24,7 +25,7 @@ This chatbot:
 ## Model Details
 
 - **Base Model**: [LLaMA-2-7b](https://huggingface.co/meta-llama/Llama-2-7b) by Meta AI.
-- **Fine-Tuned Model**: `tanusrich/Mental_Health_Chatbot` on Hugging Face.
+- **Fine-Tuned Model**: `Vedika8/Therapy_chatbot` on Hugging Face.
 - **Training Approach**: Fine-tuned using QLoRA (Quantized LoRA) for resource-efficient training.
 - **Language**: English.
 
@@ -44,7 +45,6 @@ This dataset was prepared to focus on providing supportive and non-judgmental re
 - PyTorch with CUDA (optional for GPU support)
 - Hugging Face `transformers` library
 - `streamlit` for the frontend UI
-- `pyngrok` (if deploying locally for public access)
 
 ### Clone the Repository
 
@@ -96,8 +96,5 @@ If you'd like to clear the chat history, simply click the **"New Chat"** button.
 - **Non-Clinical Tool**: This chatbot is not intended to replace professional mental health counseling. It is designed for supportive conversations and general advice, but users facing severe mental health challenges should consult licensed professionals.
 - **Model Limitations**: The model may sometimes produce responses that are too general or fail to fully understand the nuances of a specific emotional situation.
 
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for more information.
 
 
